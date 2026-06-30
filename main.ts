@@ -9,6 +9,7 @@ input.onButtonPressed(Button.A, function () {
     }
 })
 input.onButtonPressed(Button.AB, function () {
+    number_2 += 1
     basic.showLeds(`
         . . # . .
         . . # . .
